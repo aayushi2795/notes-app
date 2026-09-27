@@ -54,7 +54,7 @@ init_db()
 def index():
     return {
         "service": "notes-app",
-        "message": "Namaste from the notes app!",
+        "message": "Namaste from the kubernetes rollout test!",
         "served_by": socket.gethostname(),
     }
 
